@@ -1,0 +1,8 @@
+﻿.social-links i {
+    color: #b4c6df;
+    transition: color 0.3s ease;
+}
+
+.social-links i:hover {
+    color: #ffffff;
+}

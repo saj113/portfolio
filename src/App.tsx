@@ -9,20 +9,18 @@ import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar';
 const App = () => {
   return (
       <Container className="container-md mb-md-5">
-          <div className="py-5">
+          <div className="mt-md-5 mt-sm-2 py-5">
               <Row>
-                  <Col md="4" className="align-self-start">
-                      <Container>
-                          <Row>
-                              <NavigationBar />
-                          </Row>
-                          <Row>
+                  <Col md="3">
+                      <div >
+                          <NavigationBar />
+                          <div className="mb-sm-4">
                               <SocialMediaBar />
-                          </Row>
-                      </Container>
+                          </div>
+                      </div>
                   </Col>
                   <Col>
-                      <Row className="mt-md-5 mt-sm-2">
+                      <Row>
                           <About />
                       </Row>
                       <Row className="mt-md-5 mt-sm-2">

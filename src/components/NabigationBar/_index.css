@@ -16,7 +16,7 @@
 
 .navigation-bar li a {
     display: block;
-    padding: 10px;
+    padding-bottom: 1em;
     text-decoration: none;
     color: #b4c6df;
     font-weight: bold;
@@ -27,7 +27,7 @@
 .navigation-bar li a:hover {
     background-color: #f1f1f1;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
 .navigation-bar li a:hover,

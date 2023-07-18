@@ -3,7 +3,7 @@
 const NavigationBar: React.FC = () => {
 
     return (
-        <div className="navigation-bar d-none d-md-flex fixed-top">
+        <div className="navigation-bar justify-content-start d-none d-md-flex">
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Experience</a></li>
