@@ -1,0 +1,7 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import './components/Section/_index.css';
+@import './components/NabigationBar/_index.css';
+
+body {
+    background-color: #233554;
+}

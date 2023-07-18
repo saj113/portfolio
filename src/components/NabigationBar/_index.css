@@ -1,0 +1,36 @@
+﻿.navigation-bar {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-bar li {
+    text-transform: uppercase;
+}
+
+.navigation-bar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #b4c6df;
+    font-weight: bold;
+    transition: font-size 0.1s ease;
+}
+
+.navigation-bar li a.active,
+.navigation-bar li a:hover {
+    background-color: #f1f1f1;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.navigation-bar li a:hover,
+.navigation-bar li a.active {
+    background-color: transparent;
+}
