@@ -13,6 +13,7 @@ const SectionLink: React.FC<SectionLinkProps> = ({ to, title }) => (
         to={to}
         spy={true}
         smooth={true}
+        offset={-200}
         duration={50}>{title}</Link>
 );
 

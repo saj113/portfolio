@@ -1,8 +1,8 @@
 ﻿.social-links i {
-    color: #b4c6df;
+    color: $regular-color;
     transition: color 0.3s ease;
 }
 
 .social-links i:hover {
-    color: #ffffff;
+    color: $primary-color;
 }
