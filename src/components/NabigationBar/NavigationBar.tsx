@@ -25,6 +25,7 @@ const NavigationBar: React.FC = () => {
                 <li><SectionLink to="section-about" title="About" /></li>
                 <li><SectionLink to="section-experience" title="Experience" /></li>
                 <li><SectionLink to="section-skills" title="Skills" /></li>
+                <li><SectionLink to="section-leetcode" title="LeetCode" /></li>
                 <li><SectionLink to="section-education" title="Education" /></li>
             </ul>
         </div>

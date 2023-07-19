@@ -1,10 +1,10 @@
 ﻿import React from 'react';
-import SectionContainer from '../SectionContainer';
+import SectionContainer from './SectionContainer';
 
 const AboutSection: React.FC = () => (
     <SectionContainer id="section-about" title="About me">
         <p>
-            Hey, I'm Oleksandr Holub and here you will find something about me.
+            Hey, here you will find something about me.
         </p>
         <p>
             I've been in the software engineering field for around 10 years, and it's been an exciting journey so far. Initially, I started as a back-end engineer, but over the past 5 years, I've transitioned into a full-stack role. It's allowed me to have a broader perspective and tackle challenges from both the front and back ends.

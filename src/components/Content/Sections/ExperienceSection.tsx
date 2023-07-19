@@ -1,8 +1,8 @@
 ﻿import React from 'react'
-import SectionContainer from '../SectionContainer';
+import SectionContainer from './SectionContainer';
 import {Col, Row} from 'react-bootstrap';
-import ExperienceInfo from '../../../../models/ExperienceInfo';
-import {useAppContext} from '../../../../context/AppContext';
+import ExperienceInfo from '../../../models/ExperienceInfo';
+import {useAppContext} from '../../../context/AppContext';
 
 const ExperienceItem: React.FC<ExperienceInfo> = ({ company, location, position, startDate, endDate, projectDescription, accomplishments }) => (
     <>

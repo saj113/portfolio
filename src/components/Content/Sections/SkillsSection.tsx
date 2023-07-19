@@ -1,7 +1,7 @@
 ﻿import React from 'react';
-import SectionContainer from '../SectionContainer';
-import {useAppContext} from '../../../../context/AppContext';
-import SkillInfo from '../../../../models/SkillInfo';
+import SectionContainer from './SectionContainer';
+import {useAppContext} from '../../../context/AppContext';
+import SkillInfo from '../../../models/SkillInfo';
 
 const SkillItem: React.FC<SkillInfo> = ({type, technologies}) => (
     <div>
