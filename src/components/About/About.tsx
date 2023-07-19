@@ -2,7 +2,7 @@
 import Section from '../Section/Section';
 
 const About: React.FC = () => (
-    <Section title="About me">
+    <Section id="section-about" title="About me">
         <p>
             Hey, I'm Oleksandr Holub and here you will find something about me.
         </p>

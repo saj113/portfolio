@@ -36,7 +36,7 @@ const SkillItem: React.FC<SkillInfo> = ({type, technologies}) => (
 );
 
 const Skills: React.FC = () => (
-    <Section title={'Skills'}>
+    <Section id="section-skills" title={'Skills'}>
         {skillsInfo.map((skillInfo, index) => (
             <SkillItem key={index} {...skillInfo} />
         ))}

@@ -8,11 +8,11 @@ import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar';
 
 const App = () => {
   return (
-      <Container className="container-md mb-md-5">
-          <div className="mt-md-5 mt-sm-2 py-5">
+      <Container className="desktop-bottom-margin">
+          <div className="mt-md-5 mt-sm-2 py-5 d-flex flex-column">
               <Row>
-                  <Col md="3">
-                      <div >
+                  <Col md="2">
+                      <div className="fixed-content">
                           <NavigationBar />
                           <div className="mb-sm-4">
                               <SocialMediaBar />

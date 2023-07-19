@@ -1,6 +1,6 @@
 ﻿import React, {ReactNode} from 'react'
 import Section from '../Section/Section';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 
 type ExperienceInfo = {
     company: string;
@@ -78,7 +78,7 @@ const experiences: ExperienceInfo[] = [{
 }];
 
 const ExperienceItem: React.FC<ExperienceInfo> = ({ company, location, position, startDate, endDate, projectDescription, accomplishments }) => (
-    <Container>
+    <>
         <Row className="justify-content-between align-items-center">
             <Col sm="auto"><h4>{company}</h4></Col>
             <Col sm="auto"><span>{startDate} - {endDate}</span></Col>
@@ -95,12 +95,12 @@ const ExperienceItem: React.FC<ExperienceInfo> = ({ company, location, position,
                 ))}
             </ul>
         )}
-    </Container>
+    </>
 );
 
 const Experience: React.FC = () => {
     return (
-        <Section title={'Experience'}>
+        <Section id="section-experience" title={'Experience'}>
             {experiences.map((experience) => (
                 <ExperienceItem key={experience.company} {...experience} />
             ))}

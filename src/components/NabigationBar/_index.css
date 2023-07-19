@@ -14,7 +14,7 @@
     text-transform: uppercase;
 }
 
-.navigation-bar li a {
+.navigation-bar .section-link {
     display: block;
     padding-bottom: 1em;
     text-decoration: none;
@@ -23,14 +23,15 @@
     transition: font-size 0.1s ease;
 }
 
-.navigation-bar li a.active,
-.navigation-bar li a:hover {
+.navigation-bar .section-link.active,
+.navigation-bar .section-link:hover {
+    cursor: pointer;
     background-color: #f1f1f1;
     color: #ffffff;
     font-size: 1.1em;
 }
 
-.navigation-bar li a:hover,
-.navigation-bar li a.active {
+.navigation-bar .section-link:hover,
+.navigation-bar .section-link.active {
     background-color: transparent;
 }

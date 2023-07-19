@@ -1,14 +1,30 @@
 ﻿import React from 'react';
+import { Link } from 'react-scroll';
+
+
+type SectionLinkProps = {
+    to: string;
+    title: string;
+};
+const SectionLink: React.FC<SectionLinkProps> = ({ to, title }) => (
+    <Link
+        className="section-link"
+        activeClass="active"
+        to={to}
+        spy={true}
+        smooth={true}
+        duration={50}>{title}</Link>
+);
 
 const NavigationBar: React.FC = () => {
 
     return (
         <div className="navigation-bar justify-content-start d-none d-md-flex">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Education</a></li>
+                <li><SectionLink to="section-about" title="About" /></li>
+                <li><SectionLink to="section-experience" title="Experience" /></li>
+                <li><SectionLink to="section-skills" title="Skills" /></li>
+                <li><SectionLink to="section-education" title="Education" /></li>
             </ul>
         </div>
     );

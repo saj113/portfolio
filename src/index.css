@@ -4,6 +4,18 @@
 @import './components/NabigationBar/_index.css';
 @import './components/SocialMediaBar/_index.css';
 
+@media (min-width: 768px) {
+    .desktop-bottom-margin {
+        margin-bottom: 15rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .fixed-content {
+        position: fixed;
+    }
+}
+
 body {
     background-color: #233554;
 }
