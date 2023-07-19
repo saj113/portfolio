@@ -1,7 +1,7 @@
 ﻿import React from 'react';
-import Section from '../Section/Section';
-import {useAppContext} from '../../context/AppContext';
-import SkillInfo from '../../models/SkillInfo';
+import SectionContainer from '../SectionContainer';
+import {useAppContext} from '../../../../context/AppContext';
+import SkillInfo from '../../../../models/SkillInfo';
 
 const SkillItem: React.FC<SkillInfo> = ({type, technologies}) => (
     <div>
@@ -9,15 +9,15 @@ const SkillItem: React.FC<SkillInfo> = ({type, technologies}) => (
     </div>
 );
 
-const Skills: React.FC = () => {
+const SkillsSection: React.FC = () => {
     const { skills } = useAppContext();
     return (
-        <Section id="section-skills" title={'Skills'}>
+        <SectionContainer id="section-skills" title={'Skills'}>
             {skills.map((skillInfo, index) => (
                 <SkillItem key={index} {...skillInfo} />
             ))}
-        </Section>
+        </SectionContainer>
     );
 }
 
-export default Skills;
+export default SkillsSection;

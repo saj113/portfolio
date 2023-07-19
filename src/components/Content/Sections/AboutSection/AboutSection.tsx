@@ -1,8 +1,8 @@
 ﻿import React from 'react';
-import Section from '../Section/Section';
+import SectionContainer from '../SectionContainer';
 
-const About: React.FC = () => (
-    <Section id="section-about" title="About me">
+const AboutSection: React.FC = () => (
+    <SectionContainer id="section-about" title="About me">
         <p>
             Hey, I'm Oleksandr Holub and here you will find something about me.
         </p>
@@ -15,7 +15,7 @@ const About: React.FC = () => (
         <p>
             That's a bit about me in a nutshell.
         </p>
-    </Section>
+    </SectionContainer>
 );
 
-export default About;
+export default AboutSection;

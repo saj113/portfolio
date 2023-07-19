@@ -5,7 +5,7 @@ type SectionProps = {
     title?: string;
 } & PropsWithChildren;
 
-const Section: React.FC<SectionProps> = ({ id, title, children }) => (
+const SectionContainer: React.FC<SectionProps> = ({ id, title, children }) => (
     <div id={id}>
         <h2 className="section-title mb-md-3 mb-sm-2">{title}</h2>
         <div className="section-content">
@@ -14,4 +14,4 @@ const Section: React.FC<SectionProps> = ({ id, title, children }) => (
     </div>
 );
 
-export default Section;
+export default SectionContainer;

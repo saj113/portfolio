@@ -1,8 +1,8 @@
 ﻿import React from 'react'
-import Section from '../Section/Section';
+import SectionContainer from '../SectionContainer';
 import {Col, Row} from 'react-bootstrap';
-import ExperienceInfo from '../../models/ExperienceInfo';
-import {useAppContext} from '../../context/AppContext';
+import ExperienceInfo from '../../../../models/ExperienceInfo';
+import {useAppContext} from '../../../../context/AppContext';
 
 const ExperienceItem: React.FC<ExperienceInfo> = ({ company, location, position, startDate, endDate, projectDescription, accomplishments }) => (
     <>
@@ -25,15 +25,15 @@ const ExperienceItem: React.FC<ExperienceInfo> = ({ company, location, position,
     </>
 );
 
-const Experience: React.FC = () => {
+const ExperienceSection: React.FC = () => {
     const { experiences } = useAppContext();
     return (
-        <Section id="section-experience" title={'Experience'}>
+        <SectionContainer id="section-experience" title={'Experience'}>
             {experiences.map((experience) => (
                 <ExperienceItem key={experience.company} {...experience} />
             ))}
-        </Section>
+        </SectionContainer>
     );
 };
 
-export default Experience;
+export default ExperienceSection;

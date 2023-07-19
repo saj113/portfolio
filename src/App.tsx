@@ -1,13 +1,11 @@
 import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import NavigationBar from './components/NabigationBar/NavigationBar';
-import About from './components/About/About';
-import Experience from './components/Experience/Experience';
-import Skills from './components/Skills/Skills';
 import Header from './components/Header/Header';
 import SocialMediaBar from './components/SocialMediaBar/SocialMediaBar';
 import {AppContextProvider} from './context/AppContext';
 import {data} from './data';
+import Content from './components/Content/Content';
 
 const App = () => {
   return (
@@ -31,15 +29,7 @@ const App = () => {
                           </div>
                       </Col>
                       <Col>
-                          <Row>
-                              <About />
-                          </Row>
-                          <Row className="mt-md-5 mt-sm-2">
-                              <Experience />
-                          </Row>
-                          <Row className="mt-md-5 mt-sm-2">
-                              <Skills />
-                          </Row>
+                          <Content />
                       </Col>
                   </Row>
               </div>
