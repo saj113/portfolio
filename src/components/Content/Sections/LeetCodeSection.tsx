@@ -16,11 +16,10 @@ const LeetCodeSection: React.FC = () => (
         </p>
         <img src={solvedTotalImage} className="rounded float-start" alt="Total solved problems" />
         <img src={submissionsImage} className="rounded float-end" alt="Submissions" />
-        <a className="header__resume-link icon-link icon-link-hover mt-2" href="https://leetcode.com/saj113/" target="_blank">
+        <a className="link icon-link icon-link-hover mt-2" href="https://leetcode.com/saj113/" target="_blank">
             View my LeetCode page
             <i className="bi bi-arrow-right"></i>
         </a>
-
     </SectionContainer>
 );
 
