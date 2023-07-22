@@ -2,6 +2,7 @@
 import SectionContainer from './SectionContainer';
 import solvedTotalImage from '../../../images/leetcode-solved-total.png';
 import submissionsImage from '../../../images/leetcode-submissions.png';
+import ArrowLink from "../../ArrowLink";
 
 const LeetCodeSection: React.FC = () => (
     <SectionContainer id="section-leetcode" title="LeetCode">
@@ -16,10 +17,7 @@ const LeetCodeSection: React.FC = () => (
         </p>
         <img src={solvedTotalImage} className="rounded float-start" alt="Total solved problems" />
         <img src={submissionsImage} className="rounded float-end" alt="Submissions" />
-        <a className="link icon-link icon-link-hover mt-2" href="https://leetcode.com/saj113/" target="_blank">
-            View my LeetCode page
-            <i className="bi bi-arrow-right"></i>
-        </a>
+        <ArrowLink className="mt-2" href="https://leetcode.com/saj113/" text="View my LeetCode page" />
     </SectionContainer>
 );
 

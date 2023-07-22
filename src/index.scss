@@ -22,15 +22,7 @@ body {
     background-color: #233554;
 }
 
-h1, h2 {
-    color: $primary-color;
-}
-
-p {
-    color: $regular-color;
-}
-
-.link {
+.regular-text-color {
     color: $regular-color;
     text-decoration-color: $regular-color;
 }
