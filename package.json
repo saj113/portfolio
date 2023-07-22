@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint:fix": "npx eslint --fix --ext .ts,.tsx ."
+    "lint": "npx eslint --fix --ext .ts,.tsx ."
   },
   "browserslist": {
     "production": [
