@@ -1,6 +1,6 @@
-﻿import React from "react";
+﻿import React from 'react';
 
-const YoutubeEmbed: React.FC<{ embedId: string }> = ({ embedId }) => (
+const YoutubeEmbed: React.FC<{ embedId: string }> = ({embedId}) => (
   <div className="video-responsive">
     <iframe
       width="853"

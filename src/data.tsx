@@ -14,8 +14,8 @@ export const data = {
       'Made strategic technology decisions to drive project success and optimize outcomes.',
       'Coordinated with cross-functional teams to align priorities and collaboratively achieve project goals.',
       'Implemented Continuous Integration/Deployment pipelines, conducted pull requests, code reviews, load/stress testing, and unit/integration testing.',
-      'Utilized Scrum and Kanban methodologies for estimating work hours and tracking progress.'
-    ]
+      'Utilized Scrum and Kanban methodologies for estimating work hours and tracking progress.',
+    ],
   }, {
     company: 'Dedicated Lab',
     location: 'Ukraine',
@@ -29,8 +29,8 @@ export const data = {
       'Implemented Command Query Responsibility Segregation (CQRS) pattern to enhance parallel development by separating queries and commands.',
       'Incorporated Sagas to enable distributed transactions and ensure robustness in application.',
       'Actively contributed to professional growth of team members by sharing knowledge and mentoring.',
-      'Built databases and table structures for web applications.'
-    ]
+      'Built databases and table structures for web applications.',
+    ],
   }, {
     company: 'Akvelon (Tideworks Technology)',
     location: 'Ukraine',
@@ -44,8 +44,8 @@ export const data = {
       'Implemented and utilized custom frameworks that enhance development of integration tests.',
       'Developed and refactored Oracle procedures to enhance performance and maintainability.',
       'Mastered Java Spring, Hibernate, and other related technologies to expand capabilities and contribute to more exciting projects.',
-      'Integrated Kafka to enable efficient asynchronous communication among microservices.'
-    ]
+      'Integrated Kafka to enable efficient asynchronous communication among microservices.',
+    ],
   }, {
     company: 'Lavasoft',
     location: 'Ukraine',
@@ -53,8 +53,8 @@ export const data = {
     startDate: 'Feb 2014',
     endDate: 'Sep 2014',
     accomplishments: [
-      <span>Used critical thinking to break down problems, evaluate solutions and make decisions using <strong>.NET, WPF, MVVM</strong>.</span>
-    ]
+      <span>Used critical thinking to break down problems, evaluate solutions and make decisions using <strong>.NET, WPF, MVVM</strong>.</span>,
+    ],
   }, {
     company: 'SMISS',
     location: 'Ukraine',
@@ -62,8 +62,8 @@ export const data = {
     startDate: 'Sep 2012',
     endDate: 'Sep 2013',
     accomplishments: [
-      <span>Coordinated with other engineers to evaluate and improve software using <strong>.NET, WinForms</strong>.</span>
-    ]
+      <span>Coordinated with other engineers to evaluate and improve software using <strong>.NET, WinForms</strong>.</span>,
+    ],
   }],
   skills: [{
     type: 'Languages',
@@ -99,5 +99,5 @@ export const data = {
   }, {
     link: 'https://www.facebook.com/aleksander.golub.9/',
     icon: 'bi-facebook',
-  }]
-}
+  }],
+};
