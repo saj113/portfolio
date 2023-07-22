@@ -20,7 +20,7 @@ const GameDevSection: React.FC = () => (
     <p>
             The game was intended to be an RPG with a focus on tactical battles and procedurally generated levels. Throughout the development process, I encountered numerous challenges, and although I may not remember everything clearly now, there are several subsystems that stand out in my memory:
     </p>
-    <ul className="list-group list-group-flush mb-3">
+    <ul className="list-group list-group-flush">
       <ChallengeListItem>
                 Drawing Abilities: I implemented a controller that allowed players to draw simple shapes on the screen to use unique abilities. The challenge was to recognize the specific shapes drawn by the player.
         <p><ArrowLink href="https://github.com/saj113/art-of-darkness/tree/main/Assets/Scripts/UnitControllers/TouchControllers/ShapesRecogntions" text="ShapesRecogntions" /></p>
@@ -40,7 +40,9 @@ const GameDevSection: React.FC = () => (
                 Enemy Generation: A set of rules was designed to generate different enemies with varying positions, taking into account aspects like enemy balancing, spawn rate, player level, etc.
       </ChallengeListItem>
     </ul>
-    <YoutubeEmbed embedId={ArtOfDarknessPreviewId} />
+    <div className="mb-3 mt-3">
+      <YoutubeEmbed embedId={ArtOfDarknessPreviewId} />
+    </div>
     <p>
             I successfully developed all these features and even designed a talent system and multiple levels. However, when it came to creating animations, I lost motivation and the drive to finish the game.
     </p>

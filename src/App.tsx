@@ -24,7 +24,7 @@ const App = () => {
           </Row>
           <Row>
             <Col md="2">
-              <div className="fixed-content">
+              <div className="position-fixed">
                 <NavigationBar />
               </div>
             </Col>
