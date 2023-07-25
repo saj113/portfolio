@@ -1,6 +1,8 @@
 ﻿.navigation-bar {
     width: 200px;
     display: flex;
+    top: 50%;
+    position: fixed;
     justify-content: center;
 
     ul {
