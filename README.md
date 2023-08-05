@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Oleksandr Holub's portfolio
 
 This simple react project was implemented to consolidate all the useful information about me in one place.\
 It utilizes technologies such as:
